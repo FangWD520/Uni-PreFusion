@@ -21,6 +21,5 @@ Unified autonomous driving requires a shared bird's-eye-view (BEV) and three-dim
 </p>
 
 ## 📌 News 
-- [2026/05] Initial release of code and models.
-- [2026/05] Paper submitted to CVPR 2026.
+- [2026/05/28] Initial release of code and models.
 ---
