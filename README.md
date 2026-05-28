@@ -16,11 +16,12 @@ Unified autonomous driving requires a shared bird's-eye-view (BEV) and three-dim
 
 ---
 ## 📊 Main Results on nuScenes Validation Set
-
+<div align="center">
 | Method | Modality | NDS ↑ | mAP ↑ | mIoU ↑ | RayIoU ↑ | Planning L2 ↓ |
 |---|---|---|---|---|---|---|
 | Ours (LC) | LC | 74.2 | 71.9 | 70.4 | 50.3 | 0.65 |
 | Ours (LCT) | LCT | 74.8 | 72.4 | 72.4 | 51.7 | 0.62 |
+</div>
 ---
 <p align="center">
   <img src="figures/detail.png" width="1000">
