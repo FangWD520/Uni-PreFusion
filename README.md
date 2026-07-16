@@ -9,7 +9,7 @@
 ---
 ## 🔥 Motivation
 <p align="center">
-  <img src="figures/overview.png" width="1000">
+  <img src="figures/teaser.png" width="1000">
 </p>
 
 Unified autonomous driving requires a shared BEV/sparse 3D representation for 3D detection, BEV map segmentation, occupancy prediction, motion forecasting, and planning. Existing unified LiDAR-camera pipelines usually lift camera features into 3D space before strong multimodal interaction, which may introduce projection bias before sparse temporal reasoning. Uni-PreFusion instead performs height-aware dense LiDAR-camera fusion before depth-based lifting, and restores refined LiDAR tokens to voxel-compatible sparse features through residual broadcasting. This design fuses before lifting, preserves height cues, and keeps compatibility with unified temporal BEV/3D reasoning.
