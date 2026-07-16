@@ -31,6 +31,6 @@ Unified autonomous driving requires a shared bird's-eye-view (BEV) and three-dim
 ---
 # TODO List
 
-- [x] Release code
+- [ ] Release code
 - [ ] Release checkpoints
 - [ ] Release visualization tools
