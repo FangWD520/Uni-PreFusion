@@ -1,0 +1,87 @@
+{
+  "schema": "uniprefusion_release_assets_v1",
+  "repository": "FangWD520/Uni-PreFusion",
+  "release_tag": "v1.0.0",
+  "assets": [
+    {
+      "name": "uniprefusion-final.pth",
+      "path": "ckpts/uniprefusion-final.pth",
+      "bytes": 977058870,
+      "sha256": "a5734346817994b7508154168d25dc4d3c4c050227f9c2d41e2b4083805693d1",
+      "role": "trained_model_checkpoint",
+      "url": "https://github.com/FangWD520/Uni-PreFusion/releases/download/v1.0.0/uniprefusion-final.pth"
+    },
+    {
+      "name": "curve_template_3d_rank_7.pth",
+      "path": "ckpts/hilbert_template/curve_template_3d_rank_7.pth",
+      "bytes": 16777963,
+      "sha256": "dcb00b6eafe3ec0414760196475db2d044ea4ea0ecde82ba426bc9c88e0e954f",
+      "role": "hilbert_lookup_table",
+      "url": "https://github.com/FangWD520/Uni-PreFusion/releases/download/v1.0.0/curve_template_3d_rank_7.pth"
+    },
+    {
+      "name": "curve_template_3d_rank_8.pth",
+      "path": "ckpts/hilbert_template/curve_template_3d_rank_8.pth",
+      "bytes": 134218475,
+      "sha256": "8c0b12758e1ebbda2629254c9ab7089ffafbcc91c2c6ce85be61c9418988b64c",
+      "role": "hilbert_lookup_table",
+      "url": "https://github.com/FangWD520/Uni-PreFusion/releases/download/v1.0.0/curve_template_3d_rank_8.pth"
+    },
+    {
+      "name": "curve_template_3d_rank_9.pth",
+      "path": "ckpts/hilbert_template/curve_template_3d_rank_9.pth",
+      "bytes": 1073742571,
+      "sha256": "4cc054c3be91a55df7bccec2dac93d34562cda3e13a53fcafa8888c77ab5649e",
+      "role": "hilbert_lookup_table",
+      "url": "https://github.com/FangWD520/Uni-PreFusion/releases/download/v1.0.0/curve_template_3d_rank_9.pth"
+    },
+    {
+      "name": "curve_template_3d_rank_10.pth",
+      "path": "ckpts/hilbert_template/curve_template_3d_rank_10.pth",
+      "bytes": 8389942,
+      "sha256": "2032f33fd571d740785055f80ee49ef14db8c9e2f80e794ec17c599aa3ea7441",
+      "role": "hilbert_lookup_table",
+      "url": "https://github.com/FangWD520/Uni-PreFusion/releases/download/v1.0.0/curve_template_3d_rank_10.pth"
+    }
+  ],
+  "constructor_anchors": [
+    {
+      "path": "assets/kmeans_motion_6.npy",
+      "bytes": 5888,
+      "sha256": "9b649040a534bf7077c3d8d8dc8ccdae017296c15d5a7e90c70b294f9cca17bd",
+      "shape": [
+        10,
+        6,
+        12,
+        2
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "state_key": "motion_head.motion_anchor",
+      "tensor_sha256": "48bdd68e9d9d3ba94721b1e6729fa905c96a23a021fd76d33e85acac0e286314",
+      "original_checkpoint_sha256": "a5734346817994b7508154168d25dc4d3c4c050227f9c2d41e2b4083805693d1",
+      "source_report_sha256": "ba83af98b6081498f8f59ea1e2f609b8ee3e06bea50bcbd6ca0856082ae86319",
+      "checkpoint_tensors_sha256": "b8c543b7579c6f47cec6d4989f221023f9b59549620590214994c97d28b81777",
+      "validation": "allow_pickle=False; exact C-order raw-byte SHA-256 match to checkpoint tensor evidence"
+    },
+    {
+      "path": "assets/kmeans_planning_6.npy",
+      "bytes": 992,
+      "sha256": "d2e8c30e81f1ff57e300f738436391a5f38be0fa15f5954de6039186be2e528e",
+      "shape": [
+        3,
+        6,
+        6,
+        2
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "state_key": "planning_head.planning_anchor",
+      "tensor_sha256": "32a93c7de8d2571dd070536edcbf94ba7c00e3aa622387abbd6a64eef2ae8e7a",
+      "original_checkpoint_sha256": "a5734346817994b7508154168d25dc4d3c4c050227f9c2d41e2b4083805693d1",
+      "source_report_sha256": "ba83af98b6081498f8f59ea1e2f609b8ee3e06bea50bcbd6ca0856082ae86319",
+      "checkpoint_tensors_sha256": "b8c543b7579c6f47cec6d4989f221023f9b59549620590214994c97d28b81777",
+      "validation": "allow_pickle=False; exact C-order raw-byte SHA-256 match to checkpoint tensor evidence"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "checked_date": "2026-10-21",
+  "scope": "Exact upstream license texts; does not bind every local source file to upstream commit.",
+  "sources": [
+    {
+      "file": "third_party/licenses/AutoLab-SAI-SJTU_MambaFusion_LICENSE",
+      "repository": "AutoLab-SAI-SJTU/MambaFusion",
+      "commit": "d85c2feeb19207b20e42d50421afb11c095f3efa",
+      "url": "https://raw.githubusercontent.com/AutoLab-SAI-SJTU/MambaFusion/d85c2feeb19207b20e42d50421afb11c095f3efa/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "third_party/licenses/MzeroMiko_VMamba_LICENSE",
+      "repository": "MzeroMiko/VMamba",
+      "commit": "2ed52ead062a51a64521ed3871d52914bf532876",
+      "url": "https://raw.githubusercontent.com/MzeroMiko/VMamba/2ed52ead062a51a64521ed3871d52914bf532876/LICENSE",
+      "sha256": "fb8d4c2d5c5bc007e3176259bde6647bbb2a7a017eaab52f4a86e44d86c61076"
+    },
+    {
+      "file": "third_party/licenses/open-mmlab_OpenPCDet_LICENSE",
+      "repository": "open-mmlab/OpenPCDet",
+      "commit": "233f849829b6ac19afb8af8837a0246890908755",
+      "url": "https://raw.githubusercontent.com/open-mmlab/OpenPCDet/233f849829b6ac19afb8af8837a0246890908755/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "third_party/licenses/state-spaces_mamba_LICENSE",
+      "repository": "state-spaces/mamba",
+      "commit": "e9594ce1c732d97440f0332fdc43170a2294dbfa",
+      "url": "https://raw.githubusercontent.com/state-spaces/mamba/e9594ce1c732d97440f0332fdc43170a2294dbfa/LICENSE",
+      "sha256": "760939b000194d04548ede6a857bbe735d1695d8422ec85955c8e2bd7f4b95c5"
+    },
+    {
+      "file": "third_party/licenses/tarashakhurana_4d-occ-forecasting_LICENSE",
+      "repository": "tarashakhurana/4d-occ-forecasting",
+      "commit": "e1ea9434113d303986684395a961aaacac90d470",
+      "url": "https://raw.githubusercontent.com/tarashakhurana/4d-occ-forecasting/e1ea9434113d303986684395a961aaacac90d470/LICENSE",
+      "sha256": "58231e8c20a5de32a77062375df73d2105081b4492f6d602183a2461c95ba0bb"
+    },
+    {
+      "file": "third_party/licenses/mit-han-lab_bevfusion_LICENSE",
+      "repository": "mit-han-lab/bevfusion",
+      "commit": "326653dc06e0938edf1aae7d01efcd158ba83de5",
+      "url": "https://raw.githubusercontent.com/mit-han-lab/bevfusion/326653dc06e0938edf1aae7d01efcd158ba83de5/LICENSE",
+      "sha256": "02c5c55e19772184872c6c455553b15e4acac4b3a757550e7374f47723868ce1"
+    },
+    {
+      "file": "third_party/licenses/swc-17_SparseDrive_LICENSE",
+      "repository": "swc-17/SparseDrive",
+      "commit": "fbadea693cbef3f3daea7705e521c0dd3321605c",
+      "url": "https://raw.githubusercontent.com/swc-17/SparseDrive/fbadea693cbef3f3daea7705e521c0dd3321605c/LICENSE",
+      "sha256": "a644a835e7e5d966a61f98e2046e0f2593c8fafc35fae96216c34a45034b4c51"
+    }
+  ]
+}

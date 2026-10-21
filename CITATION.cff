@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: >-
+  If you use Uni-PreFusion in your research, please cite this repository and
+  acknowledge the upstream projects listed in the documentation. This citation
+  describes the software repository and does not assert journal acceptance or
+  publication of the associated manuscript.
+type: software
+title: "Uni-PreFusion: A Height-Aware Pre-Lifting LiDAR-Camera Fusion Frontend for Unified Autonomous Driving"
+authors:
+  - family-names: Fang
+    given-names: Xuerui
+    affiliation: Xinjiang Agricultural University
+  - family-names: Kezierbieke
+    given-names: Gulimila
+    affiliation: Xinjiang Agricultural University
+  - family-names: Chen
+    given-names: Chunyang
+    affiliation: Jiangnan University
+  - family-names: Bian
+    given-names: Congcong
+    affiliation: Jiangnan University
+  - family-names: Xue
+    given-names: Zehao
+    affiliation: Xinjiang Agricultural University
+  - family-names: Halimu
+    given-names: Yeerjiang
+    affiliation: Xinjiang Agricultural University
+  - family-names: Li
+    given-names: Hui
+    affiliation: Jiangnan University
+repository-code: "https://github.com/FangWD520/Uni-PreFusion"
+url: "https://github.com/FangWD520/Uni-PreFusion"
+abstract: >-
+  Uni-PreFusion introduces height-aware pre-lifting LiDAR-camera fusion for
+  unified autonomous driving. Sparse LiDAR voxels are compressed into
+  height-aware pillar tokens for interaction with dense multi-view image
+  features before depth-based lifting. Residual broadcasting restores refined
+  pillar context to the original sparse voxels. The framework integrates this
+  frontend with a UniLION-style sparse temporal backbone for detection, BEV map
+  segmentation, occupancy prediction, motion forecasting, and planning.
+keywords:
+  - autonomous driving
+  - LiDAR-camera fusion
+  - pre-lifting fusion
+  - height-aware representation
+  - multi-task perception
+  - temporal sparse reasoning
